@@ -8,8 +8,7 @@ app.use(express.json());
 
 app.use('/api/users', usersRouter);
 
-const PORT = 3001;
-app.listen(PORT, () => {
-  console.log(`Backend running on http://localhost:${PORT}`);
+app.listen(3001, () => {
+  console.log('Backend running on http://localhost:3001');
 });
 
